@@ -2,9 +2,6 @@
 
 @section('main-content')
 <div class="wrapper">
-    <section class="jumbotron">
-        <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
-    </section>
     <section class="comics-section container pt-5 d-flex flex-column align-items-center">
         <div class="row">
             @foreach ($comics as $comic)

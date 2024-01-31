@@ -16,9 +16,11 @@
                     <li>Fans</li>
                     <li>News</li>
                     <li>Shop</li>
-
                 </ul>
             </nav>
         </section>
+    </section>
+    <section class="jumbotron">
+        <img src="{{Vite::asset('resources/img/jumbotron.jpg')}}" alt="">
     </section>
 </header>
