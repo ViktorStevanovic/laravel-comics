@@ -1,7 +1,17 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
+.logo{
+    padding: .5rem;
+}
+.logo img{
+    width: 75px;
+}
+.navigation li{
+    padding: 2rem 0;
+}
 .active{
     border-bottom: 3px solid cornflowerblue;
+    color: cornflowerblue;
 }
 
 .jumbotron{

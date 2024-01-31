@@ -5,17 +5,17 @@
         </section>
         <section class="navigation">
             <nav class="navbar-nav navbar-light">
-                <ul class="d-flex gap-2 text-uppercase list-unstyled">
-                    <li class="p-3">Characters</li>
-                    <li class="p-3 active">Comics</li>
-                    <li class="p-3">Movies</li>
-                    <li class="p-3">Tv</li>
-                    <li class="p-3">Games</li>
-                    <li class="p-3">Collectibles</li>
-                    <li class="p-3">Videos</li>
-                    <li class="p-3">Fans</li>
-                    <li class="p-3">News</li>
-                    <li class="p-3">Shop</li>
+                <ul class="d-flex gap-5 text-uppercase list-unstyled m-0">
+                    <li>Characters</li>
+                    <li class="active">Comics</li>
+                    <li>Movies</li>
+                    <li>Tv</li>
+                    <li>Games</li>
+                    <li>Collectibles</li>
+                    <li>Videos</li>
+                    <li>Fans</li>
+                    <li>News</li>
+                    <li>Shop</li>
 
                 </ul>
             </nav>

@@ -12,7 +12,7 @@
                 <div class="card" style="width: 100%;">
                     <img src="{{ $comic['thumb'] }}" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <p class="card-text">Some </p>
+                        <p class="card-text text-uppercase"> {{$comic['title']}} </p>
                     </div>
                 </div>
             </div>
