@@ -16,4 +16,31 @@
         <button>Load more</button>
     </section>
 </div>
+{{-- shop section --}}
+<section class="shop">
+    <div class="container">
+        <div class="row d-flex justify-content-around pt-5 pb-5">
+            <div class="col-2 d-flex align-items-center">
+                <img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="">
+                <p class="text-uppercase text-white m-0 ms-3">Digital Comics</p>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+                <img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="">
+                <p class="text-uppercase text-white m-0 ms-3">Dc merchandise</p>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+                <img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="">
+                <p class="text-uppercase text-white m-0 ms-3">Subscription</p>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+                <img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="">
+                <p class="text-uppercase text-white m-0 ms-3">Comic shop locator</p>
+            </div>
+            <div class="col-2 d-flex align-items-center">
+                <img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="">
+                <p class="text-uppercase text-white m-0 ms-3">Dc power visa</p>
+            </div>
+        </div>
+    </div>
+</section>
 @endsection
