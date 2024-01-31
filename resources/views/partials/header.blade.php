@@ -1,5 +1,5 @@
 <header>
-    <section class="container d-flex justify-content-around align-items-center">
+    <section class="container d-flex justify-content-between align-items-center">
         <section class="logo">
             <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC comics main logo">
         </section>
