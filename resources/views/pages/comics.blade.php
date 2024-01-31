@@ -1,7 +1,7 @@
 @extends('layouts.layout')
 
 @section('main-content')
-<div class="wrapper">
+<div class="comics-wrapper">
     <section class="comics-section container pt-5 d-flex flex-column align-items-center">
         <div class="row">
             @foreach ($comics as $comic)
