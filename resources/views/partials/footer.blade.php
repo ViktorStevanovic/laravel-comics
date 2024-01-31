@@ -47,7 +47,7 @@
                 </div>
             </section>
             <section class="footer-logo">
-                <!-- <img src="../assets/img/dc-logo-bg.png" alt="Big DC logo footer"> -->
+                <img src="{{ Vite::asset('resources/img/dc-logo-bg.png')}}" alt="">
             </section>
         </div>
     </section>

@@ -68,16 +68,27 @@ footer{
         background-size: cover;
         color: white;
         .wrapper{
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            padding: 2rem 0;
+            
+        }
+        .footer-logo{
+            width: 50%;
+            max-height: 420px;
+            overflow: hidden;
+            img{
+                object-fit: cover;
+                object-position: top;
+            }
         }
         .footer-nav{
+            width: 50%;
             display: flex;
             justify-content: center;
-            align-items: center;
             gap: 2.5rem;
+            padding: 2rem 0;
             h2{
                 margin-bottom: .75rem;
                 text-transform: uppercase;
